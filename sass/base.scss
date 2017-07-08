@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+ul,ol,dl{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+    // 去掉img底部的基线
+
+img{
+    display: block;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearfix::before,.clearfix::after{
+    content:"";
+    height: 0;
+    line-height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+//兼容IE6
+// .clearfix{
+//     zoom: 1;
+// }
+
+input{
+    border: none;
+    outline: none;
+}
+body{
+    background: #eeeeee;
+    min-width: 920px;
+    // height: 1000px;
+}
