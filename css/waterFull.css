@@ -1,0 +1,25 @@
+#main {
+    position: relative;
+    min-height: 500px !important;
+    height: 500px !important;
+    overflow: auto;
+}
+.scroll-element.scroll-x {
+    display: none !important;
+}
+.box {
+    padding: 15px 0px 0px 15px;
+    float: left;
+}
+
+.pic {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px #ccc;
+}
+
+.pic img {
+    width: 165px;
+    height: auto;
+}

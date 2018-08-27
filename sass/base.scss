@@ -29,9 +29,9 @@ img{
     clear: both;
 }
 //兼容IE6
-// .clearfix{
-//     zoom: 1;
-// }
+.clearfix{
+    zoom: 1;
+}
 
 input{
     border: none;
@@ -40,5 +40,5 @@ input{
 body{
     background: #eeeeee;
     min-width: 1200px;
-    // height: 1000px;
+    color: #525252;
 }
